@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+<br>
+<center><h1>sign up</h1></center><br>
+<div class="container"><div class="col-s-6 m-auto">
+<form method="post" onsubmit="return validation()" class="bg-light">
+<div class="form-group">
+<label>Name</label>
+<input type="name" class="form-control" name="name" id="name" autocomplete="off">
+<span id="Name" style="color:red;">
+</span>
+</div>
+
+<script type="text/javascript">
+function validation(){
+var name=document.getElementById("name").value;
+}
+if(name==""){  document.getElementById("Name").innerHTML ="** Please fill the Name field";
+                return false;}
+</script>
+</body>
+</html>
+
+
+

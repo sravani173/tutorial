@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>My Programs</title>
+ <style>
+ body{
+ background-color: bisque;
+ }
+ p{
+ color: brown;
+ margin-left: 50px;
+ margin-right: 50px;
+ background-color: blanchedalmond;
+ border-radius: 30px;
+ font-family: serif;
+ padding: 20px;
+ }
+ img{
+ border-radius: 50%;
+ height: 200px;
+ width: 200px;
+ }
+ button{
+ color: darkcyan;
+ }
+ .dropbtn{
+ background-color: honeydew;
+ color: maroon;
+ padding: 8px;
+ font-size: 16px;
+ border: 1px;
+ border-color: black;
+ cursor: pointer;
+ border-radius: 30px;
+ }
+ .dropdown{
+ position: relative;
+ display: inline-block;
+ }
+ .dropdown-content{
+ display: none;
+ position: absolute;
+ background-color: pink;
+ min-width: 100px;
+ box-shadow: 0px 8px 16px 0px blanchedalmond;
+ z-index: 1;
+ }
+ .dropdown-content a{
+ color: black;
+ padding: 12px 16px;
+ text-decoration: underline;
+ text-transform: uppercase;
+ display: block;
+ }
+ .dropdown-content a:hover{
+ background-color: cornsilk;
+ text-transform: lowercase;
+ }
+ .dropdown:hover .dropdown-content{
+ display: block;
+ }
+ .dropdown:hover .dropbtn{
+ background-color: chocolate;
+ }
+ </style>
+</head>
+<body>
+ <center>
+ <h1>My Programs</h1>
+ </center>
+ <marquee>Welcome to the html page!!</marquee>
+ <br>
+ <div class="dropdown">
+ <button class="dropbtn">Depatments</button>
+ <div class="dropdown-content">
+ <a href="#">CSE</a>
+ <a href="#">ECE</a>
+ <a href="#">AIDS</a>
+ <a href="#">CSM</a>
+ <a href="#">CSD</a>
+ </div>
+ </div>
+ <div class="dropdown">
+ <button class="dropbtn">Courses</button>
+ <div class="dropdown-content">
+ <a href="#">B.Tech</a>
+ <a href="#">M.tech</a>
+ </div>
+ </div>
+ <br>
+</body>
+</html>s
